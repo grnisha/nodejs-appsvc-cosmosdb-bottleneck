@@ -4,15 +4,12 @@ name: Sample App load test
 
 # Controls when the workflow will run
 on:
-  push:
-      branches:
-        - main
   workflow_dispatch:
 
 env:
-  LOAD_TEST_RESOURCE: "loadtestnp01"
-  LOAD_TEST_RESOURCE_GROUP: "rg-load-uks"
-  ENDPOINT_URL: "loadtst.azurewebsites.net"
+  LOAD_TEST_RESOURCE: "xxxx"
+  LOAD_TEST_RESOURCE_GROUP: "xxxx"
+  ENDPOINT_URL: "xxxx"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
